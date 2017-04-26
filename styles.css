@@ -1,0 +1,79 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+	background-color: #a6686f;
+}
+
+.title {
+	color: #b0b0af;
+	font-size: 25px;
+	margin-left: 290px;
+	margin-top: 570px;
+}
+
+.empty1 {
+	margin-left: 600px;
+}
+
+.bar1 {
+	z-index: -20;
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+.boxes {
+	z-index: -20;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.featured {
+	z-index: -30;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+nav {
+	margin-left: 130px;
+}
+
+nav ul li {
+	display: inline;
+	font-size: 22px;
+	line-height: 80px;
+	font-size: 22px;
+	color: #282c2e;
+	margin-left: 50px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #000;
+}
+
+.featured {
+	float: right;
+}
+
+.bar2 {
+	float: right;
+	margin-top: 17px;
+}
+
+.me {
+	margin-top: 90.5px;
+}
+
+empty2 {
+	
+}

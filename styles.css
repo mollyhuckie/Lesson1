@@ -400,46 +400,93 @@ nav ul li a {
 #Message {
 	color: #282c2e;
 	background-color: #c4c4ce;
-	border-top: medium, solid, color #a6686F;
 	width: 503px;
 	height: 155px;
 	font-size: 18px;
 }
 
+#Message:focus{
+	border-top: 5px solid #a6686F;
+	outline: none;
+	}
+
 #Email {
 	margin-top: 40px;
 	color: #282c2e;
 	background-color: #c4c4ce;
-	border-top: medium, solid, color #a6686F;
 	width: 503px;
-	height: 44px;
+	height: 34px;
 	font-size: 18px;
+	padding-top: 10px;
 }
+
+#Email:focus{
+	border-top: 5px solid #a6686F;
+	outline: none;
+	}
 
 #Name {
 	margin-top: 40px;
 	color: #282c2e;
 	background-color: #c4c4ce;
-	border-top: medium, solid, color #a6686F;
 	width: 229px;
-	height: 44px;
+	height: 34px;
 	font-size: 18px;
+	padding-top: 10px;
 }
+
+#Name:focus{
+	border-top: 5px solid #a6686F;
+	outline: none;
+	}
 
 #Number {
 	margin-top: 40px;
-	margin-left: 32px;
+	margin-left: 28px;
 	color: #282c2e;
 	background-color: #c4c4ce;
-	border-top: medium, solid, color #a6686F;
 	width: 229px;
-	height: 44px;
+	height: 34px;
 	font-size: 18px;
+	padding-top: 10px;
 }
+
+#Number:focus{
+	border-top: 5px solid #a6686F;
+	outline: none;
+	}
 
 #Send {
 	margin-top: 40px;
 }
+
+textarea {
+	resize: none;
+}
+
+.current {
+  font-size: 22px;
+  position: relative;
+}
+
+.current::after {
+  border-bottom: 0.125em solid #a6686F;
+  content: "";
+  left: 0;
+  line-height: 20px;
+  margin-top: calc(0.125em / 2 * -1);
+  position: absolute;
+  right: 0;
+  top: 50%;
+}
+
+.folio {
+	position: absolute;
+	left: -270px;
+	top: 465px;
+}
+
+
 
 
 
